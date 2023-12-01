@@ -5,14 +5,14 @@ width: 200px;
 .switch_toggle {
 width: 85px;
 height: 85px;
-background-image: url(switch.content/Switch.svg);
+background-image: url(Switch.svg);
 background-repeat: no-repeat;
 background-size: contain;
 display: inline-block;
 }
 
 .switch_label{
-background-image: url(switch.content/darksky.svg);
+background-image: url(darksky.svg);
 background-repeat: no-repeat;
 background-size: contain;
 cursor: pointer;
@@ -29,11 +29,11 @@ display: inline-block;
  
 .switch_input:checked + .switch_label {
 text-align: right;
-background-image: url(switch.content/lightsky.svg)
+background-image: url(lightsky.svg)
 }
 
 .switch_input:checked + .switch_label .switch_toggle {
-background-image: url(switch.content/Switchlight.svg);
+background-image: url(Switchlight.svg);
 }
 
 .switch_2 {
@@ -45,14 +45,14 @@ top: 150px;
 .switch2_toggle {
 width: 70px;
 height: 70px;
-background-image: url(switch.content/whitesw.svg);
+background-image: url(whitesw.svg);
 background-repeat: no-repeat;
 background-size: contain;
 display: inline-block;
 }
     
 .switch2_label{
-background-image: url(switch.content/forestnight.svg);
+background-image: url(forestnight.svg);
 background-repeat: no-repeat;
 background-size: contain;
 cursor: pointer;
@@ -69,11 +69,11 @@ display: none;
 .switch2_input:checked + .switch2_label {
 text-align: right;
 padding: 10px;
-background-image: url(switch.content/forestnight.svg)
+background-image: url(forestnight.svg)
 }
     
 .switch2_input:checked + .switch2_label  {
-background-image: url(switch.content/forestlight.svg);
+background-image: url(forestlight.svg);
 }
     
 
